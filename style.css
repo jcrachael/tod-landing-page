@@ -10,24 +10,21 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #1f2937;
-  width: 100vw;
   height: 80px;
-
+  margin: 0px 75px;
 }
 
 .header-logo {
   font-size: 24px;
   font-weight: bold;
   color: #f9faf8;
-  margin-left: 75px;
+  
 }
-.nav-buttons {
-  margin-right: 43px;
-}
+
 .nav-buttons ul li {
   list-style-type: none;
   display: inline;
-  padding-right: 32px;
+  padding-left: 16px;
 }
 
 header .nav-buttons ul li a {
@@ -35,6 +32,13 @@ header .nav-buttons ul li a {
   color: #e5e7eb;
   font-size: 12px;
 }
+
+
+header .nav-buttons ul li a:hover {
+  text-decoration: underline;
+  color: #555555;
+ }
+
 
 .banner {
   color: #f9faf8;
@@ -58,11 +62,23 @@ header .nav-buttons ul li a {
 
 .banner-left button {
   background-color: #3882f6;
-  border: none;
+  border: 2px #3882f6 solid;
   border-radius: 10px;
   padding: 10px 20px;
   color: #f9faf8;
   font-size: 16px;
+}
+
+.banner-left button:hover {
+  background-color: #1f2937;
+  cursor: pointer;
+  color: #3882f6;
+}
+
+.banner-left button:active {
+  background-color: #1f2937;
+  cursor: grabbing;
+  color: #3882f6;
 }
 
 .banner-right img {
@@ -143,6 +159,18 @@ p.quote-attr {
   color: #f9faf8;
   font-size: 16px;
   margin: 0px 16px;
+}
+
+.cta button:hover {
+  background-color: #f9faf8;
+  cursor: pointer;
+  color: #3882f6;
+}
+
+.cta button:active {
+  background-color: #f9faf8;
+  cursor: grabbing;
+  color: #3882f6;
 }
 
 footer {
